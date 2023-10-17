@@ -613,6 +613,73 @@ h1{
     background-position: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
+}
+#trbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/tarangire4.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#tmgbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/materuni3.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#tmnybanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/lakemayara1.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#tarsgbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/arusha2.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#tkubanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/kikuletwa1.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#tngbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/ngorongoro3.webp);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 .iwrapper{
     display: inline-flex;
@@ -666,6 +733,10 @@ h1{
     .iwrapper{
         display: inline-block;
     }
+}
+.glider-contain{
+    margin-bottom: 30px;
+    padding: 15px;
 }
 .p-slider{
     display: flex;
@@ -888,9 +959,16 @@ h1{
         display: inline-block;
         margin: 10px;
     }
+    .p-slider{
+        margin-bottom: 35px;
+    }
 }
 #Faq{
     min-height: 100vh;
     width: 100%;
     color: #fff;
+}
+.aboutusp{
+    text-align: left;
+    margin: 15px;
 }
